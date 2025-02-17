@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "794db9ea-c28b-481e-9f60-7877b6fb3dd4")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "3.3V"
+		(shape output)
+		(at 125.73 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c36f063-6ac6-44b7-bea5-c7e930fe41cb")
+	)
+	(hierarchical_label "120 VAC HOT"
+		(shape input)
+		(at 99.06 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63a2bb8a-afe1-407a-9657-7bb7b284008f")
+	)
+	(hierarchical_label "12V"
+		(shape output)
+		(at 125.73 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67ba3b4f-7e42-4423-b0c2-b5bf0fdcac4a")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 125.73 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76b0c196-afcf-4647-b670-f1bbef93cf02")
+	)
+	(hierarchical_label "120 VAC NEUTRAL"
+		(shape input)
+		(at 99.06 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8247df45-8a86-485d-b55b-da6eae5a1af1")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 125.73 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "946aac35-9c9e-4316-b463-21cd6ab18cbc")
+	)
+	(hierarchical_label "120 VAC GND"
+		(shape input)
+		(at 99.06 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eafc942f-36b4-45fd-9031-cd5b263a54e3")
+	)
+)
