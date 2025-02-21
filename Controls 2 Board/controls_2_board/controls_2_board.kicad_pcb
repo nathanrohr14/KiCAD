@@ -1933,7 +1933,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
-			(at 3.81 1.81973 360)
+			(at 3.81 1.81973 0)
 			(layer "F.SilkS")
 			(uuid "947b9db1-7d06-4a0b-9c1d-a444c59a8d79")
 			(effects
@@ -1944,7 +1944,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 1.92 360)
+			(at 3.81 1.92 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7401cb36-9330-445e-b7d4-fe9c5c522586")
@@ -2160,7 +2160,7 @@
 			(uuid "5bb3ed92-9b83-42c5-a954-59e029c98b42")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "14b27a5d-0e83-4aa3-b8dc-ffc603fa1d15")
 			(effects
@@ -3957,7 +3957,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at 3.81 1.75 360)
+			(at 3.81 1.75 0)
 			(layer "F.SilkS")
 			(uuid "6469d47e-a0c1-4b85-83d0-02e5bc984d79")
 			(effects
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 3.81 1.92 360)
+			(at 3.81 1.92 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "396f4b5a-69bc-4b09-ba89-5fcc4d979383")
@@ -4184,7 +4184,7 @@
 			(uuid "34e334ab-6df9-4bb5-a75e-5118f5afaa21")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "0f2c1884-cf06-4380-9bf8-eacf7b230a57")
 			(effects
@@ -4570,7 +4570,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R3"
-			(at 3.81 2 360)
+			(at 3.81 2 0)
 			(layer "F.SilkS")
 			(uuid "36f324e5-e840-4c9c-b992-c43b77c65105")
 			(effects
@@ -4581,7 +4581,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 6.31 1.75 360)
+			(at 6.31 1.75 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7abadd15-73d0-43ac-aefd-3c312910d636")
@@ -4797,7 +4797,7 @@
 			(uuid "a497d8b2-9680-4485-aab2-1793d2596f58")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 360)
+			(at 3.81 0 0)
 			(layer "F.Fab")
 			(uuid "f2d30dd1-b843-4dc4-a7ed-1371fc12d307")
 			(effects
@@ -5387,12 +5387,28 @@
 		(uuid "ec004a9c-aa20-4f21-a230-8889ed1f0c28")
 	)
 	(segment
-		(start 132.75 83.25)
-		(end 140.5 83.25)
+		(start 137.75 83.25)
+		(end 141.25 79.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "3ef81ec0-a8f5-4a3c-924b-1e96a3ccb0ef")
+		(uuid "6d1348d2-ee08-40ae-bb1b-7c0c3dd2905c")
+	)
+	(segment
+		(start 132.75 83.25)
+		(end 137.75 83.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "be993a34-9964-439c-9ffc-64ff1d73ff33")
+	)
+	(segment
+		(start 141.25 79.75)
+		(end 141.25 66.69)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "c61c6673-aef4-45a5-b465-8a3bd68448fc")
 	)
 	(segment
 		(start 141.25 66.69)
@@ -5400,23 +5416,7 @@
 		(width 0.5)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "3fbf1884-edbe-4386-bb7e-914f2039eceb")
-	)
-	(segment
-		(start 140.5 83.25)
-		(end 141.25 82.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "5d914f04-e632-4043-9e17-75037294756f")
-	)
-	(segment
-		(start 141.25 82.5)
-		(end 141.25 66.69)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "dd7273e9-312f-4a01-a947-4d79facd3f16")
+		(uuid "eaa0faae-f414-49cc-ad79-0052ba320420")
 	)
 	(via
 		(at 132.75 83.25)
@@ -6478,8 +6478,21 @@
 				(xy 182.538864 56.391207) (xy 182.462601 56.420752) (xy 182.462595 56.420754) (xy 182.273439 56.537874)
 				(xy 182.273437 56.537876) (xy 182.10902 56.687761) (xy 181.974943 56.865308) (xy 181.974938 56.865316)
 				(xy 181.875775 57.064461) (xy 181.875769 57.064476) (xy 181.814885 57.278462) (xy 181.814884 57.278464)
-				(xy 181.794357 57.499999) (xy 125.5005 57.499999) (xy 125.5005 50.6245) (xy 125.520185 50.557461)
-				(xy 125.572989 50.511706) (xy 125.6245 50.5005) (xy 190.3755 50.5005)
+				(xy 181.794357 57.499999) (xy 125.5005 57.499999) (xy 125.5005 53.749994) (xy 140.994357 53.749994)
+				(xy 140.994357 53.750005) (xy 141.01489 53.997812) (xy 141.014892 53.997824) (xy 141.075936 54.238881)
+				(xy 141.175826 54.466606) (xy 141.311833 54.674782) (xy 141.311836 54.674785) (xy 141.480256 54.857738)
+				(xy 141.676491 55.010474) (xy 141.89519 55.128828) (xy 142.130386 55.209571) (xy 142.375665 55.2505)
+				(xy 142.624335 55.2505) (xy 142.869614 55.209571) (xy 143.10481 55.128828) (xy 143.323509 55.010474)
+				(xy 143.519744 54.857738) (xy 143.688164 54.674785) (xy 143.824173 54.466607) (xy 143.924063 54.238881)
+				(xy 143.985108 53.997821) (xy 144.005643 53.75) (xy 143.985108 53.502179) (xy 143.924063 53.261119)
+				(xy 143.824173 53.033393) (xy 143.688166 52.825217) (xy 143.666557 52.801744) (xy 143.519744 52.642262)
+				(xy 143.323509 52.489526) (xy 143.323507 52.489525) (xy 143.323506 52.489524) (xy 143.104811 52.371172)
+				(xy 143.104802 52.371169) (xy 142.869616 52.290429) (xy 142.624335 52.2495) (xy 142.375665 52.2495)
+				(xy 142.130383 52.290429) (xy 141.895197 52.371169) (xy 141.895188 52.371172) (xy 141.676493 52.489524)
+				(xy 141.480257 52.642261) (xy 141.311833 52.825217) (xy 141.175826 53.033393) (xy 141.075936 53.261118)
+				(xy 141.014892 53.502175) (xy 141.01489 53.502187) (xy 140.994357 53.749994) (xy 125.5005 53.749994)
+				(xy 125.5005 50.6245) (xy 125.520185 50.557461) (xy 125.572989 50.511706) (xy 125.6245 50.5005)
+				(xy 190.3755 50.5005)
 			)
 		)
 	)

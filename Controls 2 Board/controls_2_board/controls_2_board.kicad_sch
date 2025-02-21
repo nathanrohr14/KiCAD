@@ -2905,12 +2905,6 @@
 		)
 	)
 	(junction
-		(at 110.49 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "180af9f9-0edf-4437-b1d5-831b9823d5c8")
-	)
-	(junction
 		(at 44.45 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2963,6 +2957,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2fd2f6-82ed-443f-b67f-b428655b6724")
+	)
+	(junction
+		(at 107.95 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d64cfd31-be5c-4fe0-ac3f-46f70e54b19c")
 	)
 	(junction
 		(at 101.6 109.22)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 132.08 53.34)
+			(xy 107.95 53.34) (xy 132.08 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3251,16 +3251,6 @@
 			(type default)
 		)
 		(uuid "5a95195b-1eb3-4d7d-983b-96ad8444fd87")
-	)
-	(wire
-		(pts
-			(xy 110.49 106.68) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630cc8d8-0055-4a7c-ab6e-4a057e12be61")
 	)
 	(wire
 		(pts
@@ -3384,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 110.49 106.68)
+			(xy 107.95 106.68) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 110.49 106.68)
+			(xy 107.95 53.34) (xy 107.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3724,7 +3714,6 @@
 	)
 	(label "SDA"
 		(at 52.07 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3735,7 +3724,6 @@
 	)
 	(label "~{LAT}"
 		(at 36.83 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3746,7 +3734,6 @@
 	)
 	(label "SDA"
 		(at 36.83 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3757,7 +3744,6 @@
 	)
 	(label "~{LAT}"
 		(at 55.88 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3754,6 @@
 	)
 	(label "V1"
 		(at 74.93 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3779,7 +3764,6 @@
 	)
 	(label "V1"
 		(at 15.24 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3790,7 +3774,6 @@
 	)
 	(label "SCL"
 		(at 36.83 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3801,7 +3784,6 @@
 	)
 	(label "V2"
 		(at 15.24 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3812,7 +3794,6 @@
 	)
 	(label "SCL"
 		(at 52.07 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3823,7 +3804,6 @@
 	)
 	(label "V2"
 		(at 74.93 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

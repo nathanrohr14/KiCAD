@@ -1423,7 +1423,6 @@
 	)
 	(label "Pop"
 		(at 52.07 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
