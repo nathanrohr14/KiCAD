@@ -52,7 +52,15 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|134862500|75587500|55361b7e-444d-489f-bc26-7ffd2bebbdf9|2337c6e1-675c-41bd-a953-4bc42a8d26ac",
+        "clearance|134862500|76087500|2337c6e1-675c-41bd-a953-4bc42a8d26ac|6cadcdcb-c6c4-431d-acba-1f040289f643",
+        "clearance|134862500|76587500|6cadcdcb-c6c4-431d-acba-1f040289f643|0045adef-11a3-4278-8bdf-c27bf5b7b8e1",
+        "clearance|134862500|77087500|0045adef-11a3-4278-8bdf-c27bf5b7b8e1|8c70c76c-2c8d-478d-8464-530a468f7f55",
+        "clearance|139087500|75912500|1e4aea02-48ca-493a-80f8-b2abe801770e|312e361f-b4f3-40d8-97c5-6bfaee39d94f",
+        "clearance|139087500|76412500|4b4c2b7d-71a2-4a45-afb8-2f84caf7614f|1e4aea02-48ca-493a-80f8-b2abe801770e",
+        "clearance|139087500|77412500|ef3f74f0-82ec-42f9-87b3-b50ad975f352|c2e8058f-7abf-4187-b439-a998d0dab6f5"
+      ],
       "meta": {
         "version": 2
       },
@@ -216,9 +224,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_connected|2159000|1041400|f7360f65-3749-41da-976a-76662db39561|00000000-0000-0000-0000-000000000000|/34b50189-37ca-4c86-b9ce-0a27b911ed8e|/34b50189-37ca-4c86-b9ce-0a27b911ed8e|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
