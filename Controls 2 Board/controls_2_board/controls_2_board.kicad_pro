@@ -224,7 +224,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_connected|2159000|1041400|f7360f65-3749-41da-976a-76662db39561|00000000-0000-0000-0000-000000000000|/34b50189-37ca-4c86-b9ce-0a27b911ed8e|/34b50189-37ca-4c86-b9ce-0a27b911ed8e|"
+    ],
     "meta": {
       "version": 0
     },
