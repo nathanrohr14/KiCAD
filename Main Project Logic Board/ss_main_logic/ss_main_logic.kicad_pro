@@ -60,8 +60,6 @@
       ],
       "drc_exclusions": [
         "clearance|156675000|105425001|34289f7a-0f27-41fb-ad23-1e5302277783|70144074-6553-490a-b753-8efa8e19133a",
-        "starved_thermal|112000000|127380000|0410cc7e-2150-45ed-9cd7-1cc5adef84ec|3ef11b3e-58d8-448d-9890-0ba12fc7a124|F.Cu",
-        "starved_thermal|112000000|129920000|f6bdd4bb-c8a4-46bc-ae3e-e46c41626300|51ca9dc9-e768-49db-9755-3e00b47852e4|B.Cu",
         "starved_thermal|160975000|113000000|0410cc7e-2150-45ed-9cd7-1cc5adef84ec|5c7ed20f-763c-48d0-9871-d9d87caebc83|F.Cu"
       ],
       "meta": {
