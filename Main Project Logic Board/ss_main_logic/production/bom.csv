@@ -1,11 +1,14 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "C1, C2, C3, C4, C5, C6",0603,6,0.1 uF,C14663
 C7,1206,1,10 uF,C13585
+"D1, D2, D3, D4, D5",0603,5,R_LED,C2286
 J1,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06_Pin,
 J2,PinHeader_1x07_P2.54mm_Vertical,1,KeyPAD,
 "J3, J4, J6",PinHeader_1x03_P2.54mm_Vertical,3,Conn_01x03_Pin,
 J5,282837-2_TYC,1,Screw_Terminal_01x02,
+"J7, J8",PinSocket_1x08_P2.54mm_Vertical,2,Conn_01x08_Socket,
+J9,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
 R1,0603,1,10k,
 R2,0603,1,470,C23179
+"R3, R4, R5, R6, R7",1210,5,65,C11021
 U1,TQFP-100_14x14mm_P0.5mm,1,PIC24FJ128GA010-I_PT,C638384
-U2,RN4870_MCH,1,RN4870-V_RM118,
